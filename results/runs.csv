@@ -1,0 +1,10 @@
+name,hang_rate,strategy,threshold,cache,n,p50_ms,p95_ms,errors,pending,accuracy,large_calls,cache_hits
+baseline,0.0,large,,off,200,489,593,0,0,93.5%,100%,0%
+t0-large,0.0,large,,off,200,507,593,0,0,93.5%,100%,0%
+t0-small,0.0,small,,off,200,16,37,0,0,72.5%,0%,0%
+t1-before,0.1,large,,off,200,230,392,18,0,94.5%,100%,0%
+t1-after,0.1,large,,off,200,402,1012,0,24,92.6%,100%,0%
+t2-0.6,0.0,cascade,0.6,off,200,8,574,0,0,91.5%,38%,0%
+t2-0.7,0.0,cascade,0.7,off,200,372,563,0,0,93.0%,53%,0%
+t2-0.8,0.0,cascade,0.8,off,200,450,558,0,0,93.5%,64%,0%
+t2-0.9,0.0,cascade,0.9,off,200,471,615,0,0,93.5%,77%,0%
